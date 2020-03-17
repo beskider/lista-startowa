@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/styles.css" th:href="@{/css/styles.css}" />
+    <title>Lista startowa</title>
+</head>
+<body>
+    <div class="container  my-5">
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Witaj!</h3>
+                <br/>
+                <h5>Aplikacja Lista Startowa służąca do rejestracji uczestników. <em>Co chcesz zrobić?</em></h5>
+                <br/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <a th:href="@{/users/add}" class="btn btn-primary" role="button">
+                    <i class="fa fa-user-plus fa-2x" aria-hidden="true"></i><br/>Dodaj uczestnika</a>
+                <a th:href="@{/users}" class="btn btn-primary" role="button">
+                    <i class="fa fa-users fa-2x" aria-hidden="true"></i><br/>Przeglądaj uczestników</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

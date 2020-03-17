@@ -1,0 +1,35 @@
+body {
+  background-color: #f1f1fe;
+}
+
+.table {
+   text-align: center;
+}
+
+.table .thead-blue {
+    color: white;
+    background: #007bff;
+}
+
+.icon {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.field-validation-error {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 80%;
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+  background-color: #d9534f;
+}
+
+h5#icon-description {
+    float:right;
+}
