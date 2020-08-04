@@ -28,7 +28,7 @@ allows you to select the log storage place and the logging lever for each part o
 * HTML5 & CSS3
 * [Apache POI](https://poi.apache.org/)
 * [iText PDF](https://itextpdf.com/)
-* Plik `.gitignore` wygenerowano przy pomocy witryny [gitignore.io](https://www.gitignore.io)
+* `.gitignore` file created by [gitignore.io](https://www.gitignore.io)
 
 ## Running
 
@@ -56,7 +56,7 @@ Umożliwia zarządzanie listą uczestników:
 * logger aplikacji (SLF4J & Logback) konfigurowany jest w pliku `application.properties`, 
 umożliwia wybór miejsca przechowywania dzienników oraz poziomu logowania dla każdej z części aplikacji, dostępne poziomy logowania: OFF, ERROR, WARN, INFO, DEBUG, TRACE,
 
-* aplikacja podzielona na warstwy: model, repozytorium, serwisy, kontrolery; odpowiadają pakietom w projekcie,
+* aplikacja podzielona na warstwy: model, repozytorium, serwisy, kontrolery; odpowiadają one pakietom w projekcie,
 
 * widoki to szablony HTML uzupełniane przy pomocy Thymeleaf, wizualizacja i układ zapewniają
 elementy Bootrstrap'a.  
