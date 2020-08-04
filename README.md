@@ -59,7 +59,7 @@ umożliwia wybór miejsca przechowywania dzienników oraz poziomu logowania dla 
 * aplikacja podzielona na warstwy: model, repozytorium, serwisy, kontrolery; odpowiadają one pakietom w projekcie,
 
 * widoki to szablony HTML uzupełniane przy pomocy Thymeleaf, wizualizacja i układ zapewniają
-elementy Bootrstrap'a.  
+elementy Bootrstrap'a,
 
 * do generowania zestawień PDF i XLS wykorzystano projekt Apache POI oraz bibliotekę iText,
 
